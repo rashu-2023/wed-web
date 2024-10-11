@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shobhita & Rashu's Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header-section">
+        <img src="assets/1.png" alt="Save the Date">
+    </header>
+
+    <!-- Our Love Story Section -->
+    <section class="our-love-story">
+        <img src="assets/2.png" alt="Our Love Story">
+    </section>
+
+    <!-- Wedding Details Section -->
+    <section class="wedding-details">
+        <img src="assets/3.png" alt="Wedding Details">
+    </section>
+
+    <section class="rsvp-section">
+        <img src="assets/4.png" alt="RSVP Section">
+        <button id="rsvp-button">RSVP Now</button>
+    </section>
+    
+    <!-- RSVP Form Modal (Hidden by default) -->
+    <div id="rsvp-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <h2>RSVP</h2>
+            <form id="rsvpForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
